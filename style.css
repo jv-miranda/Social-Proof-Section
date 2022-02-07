@@ -25,7 +25,7 @@ body {
     background-position: top left, right bottom;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     body {
         width: auto;
         height: auto;
@@ -101,18 +101,161 @@ main {
 .review-card {
     background: var(--very-dark-magenta);
     height: 250px;
-    width: 400px;
+    width: 390px;
     padding: 30px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .review-id {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .review-id-image {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-right: 26px;
+}
+
+.review-id-text {
+    font-size: 0.9rem;
+}
+
+.review-name {
+    font-weight: 700;
+    color: var(--white);
+}
+
+.review-tag {
+    color: var(--soft-pink);
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.review-text {
+    color: var(--white);
+    font-size: 0.88rem;
+    line-height: 25px;
+}
+
+#review-card-02 {
+    margin-top: 15px;
+}
+
+#review-card-03 {
+    margin-top: 30px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1407px) {
+    body {
+        height: auto;
+    }
+    
+    main{
+        justify-content: center;
+    }
+
+    #review-card-02 {
+        margin-left: 50px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1250px) {
+    header {
+        justify-content: center;
+    }
+
+    .header-text {
+        text-align: center;
+    }
+
+    h1 {
+        width: auto;
+    }
+
+    #p1 {
+        width: auto;
+    }
+
+    .rating {
+        width: 90vw;
+    }
+
+    #rating-02 {
+        margin-left: 0;
+    }
+    
+    #rating-03 {
+        margin-left: 0;
+    }
+    
+}
+
+@media (max-width: 989px) {
+    #review-card-02 {
+        margin-left: 20px;
+    }
+
+    #review-card-03 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 953px) {
+    #review-card-02 {
+        margin-left: 10px;
+    }
+
+    #review-card-03 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 941px) {
+    #review-card-02 {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 929px) {
+    body {
+        width: 100vw;
+    }
+    
+    #review-card-02 {
+        margin-top: 20px;
+    }
+    
+    #review-card-03 {
+        margin-top: 20px;
+    }
+
+    .review-card {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        margin-top: 10%;
+    }
+
+    .rating {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 376px) {
+    .review-text {
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
 }
