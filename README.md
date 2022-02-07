@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-Column Preview Card Component Solution
+# Frontend Mentor - Social Proof Section
 
 This is a solution to the [Social Proof Section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
